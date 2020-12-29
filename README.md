@@ -1,8 +1,6 @@
 <!-- markdownlint-disable line-length -->
 
-# iAPP React Framework
-
-This is a [framework](https://en.wikipedia.org/wiki/Software_framework) for developing iApp.
+# KT React Framework
 
 **Note:** Node v12+ is required for this project
 **Note:** This project uses [yarn v2](https://yarnpkg.com/) for package management and zero-install
@@ -21,8 +19,6 @@ The project will have a number of files and folders that make up the structure o
 | public/ | contains static templates such as manifest.json, favicon, ... |
 | scripts/ | contains custom scripts that used to generate new components, controllers, views, ...|
 | src/ | contains app main dev files, everything you develop will goes here |
-| storybook/ | contains files for [storybook](https://storybook.js.org/) |
-| test/ | contains test files |
 | .env | environment variables |
 | .env.example | environment variables example |
 | .eslintrc.js | [eslint configs and roles](https://eslint.org/docs/developer-guide/shareable-configs) |
@@ -74,5 +70,5 @@ yarn run build-storybook
 - [x] initiate README.md
 - [] add storybook
 - [] add tests
-- [x] add task runners
+- [] add task runners
 

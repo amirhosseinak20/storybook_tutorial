@@ -1,7 +1,14 @@
+const path = require('path');
+
+const root = path.join(__dirname, '..', 'src');
+const docPattern = '*.stories.mdx';
+const storyPattern = '*.stories.js';
+const storybook = 'storybook/**';
+
 module.exports = {
   "stories": [
-    "../src/components/*.stories.mdx",
-    "../src/components/*.stories.@(js|jsx|ts|tsx)"
+    path.join(root, storybook, docPattern),
+    path.join(root, storybook,storyPattern),
   ],
   "addons": [
     "@storybook/addon-links",
